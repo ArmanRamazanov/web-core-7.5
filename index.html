@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верстка макета(1.7.5)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section class="section">
+        <!--Heading-->
+        <h2 class="section__heading">Ремонт техники различных брендов</h2>
+
+        <!--The part with the gray background-->
+        <div class="swiper section__carousel">
+            <ul class="swiper-wrapper section__main-content-list">
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Lenovo">
+                    <a class="section__main-content-link" aria-labelledby="Lenovo">
+                        <img id="Lenovo" src="images/Lenovo.png" alt="Lenovo">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+                
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Samsung">
+                    <a class="section__main-content-link" aria-labelledby="Samsung">
+                        <img id="Samsung" src="images/Samsung.png" alt="Samsung">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Apple">
+                    <a class="section__main-content-link" aria-labelledby="Apple">
+                        <img id="Apple" src="images/Apple.png" alt="Apple">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="ViewSonic">
+                    <a class="section__main-content-link" aria-labelledby="ViewSonic">
+                        <img id="ViewSonic" src="images/Lenovo.png" alt="ViewSonic">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+
+               <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Bosch">
+                    <a class="section__main-content-link" aria-labelledby="Bosch">
+                        <img id="Bosch" src="images/Bosch.png" alt="Bosch">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="HP">
+                    <a class="section__main-content-link" aria-labelledby="HP">
+                        <img id="HP" src="images/HP.png" alt="HP">
+                        <button aria-label="Go to the link">
+                                <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                        </a>
+                </li>
+
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Acer">
+                    <a class="section__main-content-link" aria-labelledby="Acer">
+                        <img id="Acer" src="images/Acer.png" alt="Acer">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Sony"> 
+                    <a class="section__main-content-link" aria-labelledby="Sony">
+                        <img id="Sony" src="images/Lenovo.png" alt="Sony">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Lenovo">
+                    <a class="section__main-content-link" aria-labelledby="Lenovo">
+                        <img id="Lenovo" src="images/Lenovo.png" alt="">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+
+                <li class="swiper-slide section__main-content-item" tabindex="0" aria-labelledby="Lenovo">
+                    <a class="section__main-content-link" aria-labelledby="Lenovo">
+                        <img id="Lenovo" src="images/Lenovo.png" alt="">
+                        <button aria-label="Go to the link">
+                            <img src="images/dropdown.svg" alt="" aria-hidden>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+
+            <!--the button part(either swiper pagination or button show more)-->
+            <div class="section__button-wrapper">
+                <button type="button" class="section__show-more-button" aria-label="Show more">
+                    <img src="images/more-icon.svg" alt="" aria-hidden>
+                    <span>Показать все</span>
+                </button>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" defer src="script.js"></script>
+</body>
+</html>
